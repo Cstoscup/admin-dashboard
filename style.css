@@ -236,6 +236,7 @@ hr {
   background-color: white;
   border-radius: 10px;
   margin: 15px 15px 15px 0;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .person {
@@ -258,4 +259,14 @@ hr {
 
 .username {
   align-self: end;
+}
+
+.credit {
+  grid-column: 1 / 3;
+  color: black;
+  text-align: center;
+}
+
+a {
+  text-decoration: underline;
 }
